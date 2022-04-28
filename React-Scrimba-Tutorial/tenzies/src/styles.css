@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    
+}
+
+main {
+    height: 610px;
+    max-width: 800px;
+    border-radius: 5px;
+    border: 30px solid #0B2434;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+
+    
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.die {
+    height: 50px;
+    width: 50px;
+    left: 0px;
+    top: 0px;
+    border-radius: 3.8127658367156982px;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    font-family: Karla;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.roll-dice {
+    
+    margin-top: 45px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+
+.roll-dice:focus {
+    outline: none;
+}
+
+.roll-dice:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
