@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    
+    justify-content: center;
+}
+.journal {
+    max-width: 550px;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-bar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-logo {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    color: #FFF;
+}
+.title {
+    height: 16px;
+    width: 109px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+    border-radius: nullpx;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    
+}
+
+.img-container {
+    margin: 20px;
+    margin-left: 40px;
+
+}
+
+.card-img {
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+
+}
+
+.location-info {
+    margin-top: 20px;
+}
+
+.blip-logo {
+    height: 9.545454025268555px;
+    width: 7px;
+    margin-right: 4px;
+    border-radius: 0px;
+
+}
+.location {
+    height: 10px;
+    width: 40px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12.39px;
+    color: #2B283A;
+    border-radius: nullpx;
+    margin-right: 12px;
+
+}
+
+.gmap {
+    height: 13px;
+    width: 106px;
+    font-weight:400;
+    font-size: 10.24px;
+    line-height: 12.39px;
+    border-radius: nullpx;
+
+
+}
+a{
+    color: #918E9B;
+}
+
+.wonder {
+    height: 40px;
+    width: 326px;
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #2B283A;
+    margin-bottom: 7px;
+    border-radius: nullpx;
+
+}
+
+.dates {
+    height: 11px;
+    width: 319px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: nullpx;
+    margin-top: 0;
+
+}
+
+.card-descrp {
+    height: 45px;
+    width: 326px;
+    border-radius: nullpx;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
