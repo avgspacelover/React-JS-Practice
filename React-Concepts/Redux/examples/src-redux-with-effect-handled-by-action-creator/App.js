@@ -5,7 +5,7 @@ import Layout from './components/Layout/Layout';
 import Products from './components/Shop/Products';
 import Notification from './components/UI/Notification';
 // import { uiActions } from './store/ui-slice';
-import {sendCartData} from './store/cart-slice'
+import {sendCartData, fetchCartData} from './store/cart-actions'
 
 let isInitial= true;
 
@@ -21,6 +21,11 @@ function App() {
 
   const dispatch = useDispatch();
   
+  useEffect( () => {
+    dispatch(fetchCartData())
+
+  }, [dispatch]);
+  
 
   useEffect( () => {
   
@@ -30,7 +35,11 @@ function App() {
       return;
     }
     
-    dispatch(sendCartData(cart))
+    if(cart.changed){
+      
+      dispatch(sendCartData(cart))
+
+    }
 
 
   },[cart, dispatch]);
