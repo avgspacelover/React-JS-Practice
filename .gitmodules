@@ -1,3 +1,38 @@
 [submodule "epicReactPro/advanced-react-hooks"]
 	path = epicReactPro/advanced-react-hooks
 	url = git://github.com/kentcdodds/advanced-react-hooks
+
+
+[submodule "epicReactPro/advanced-react-patterns"]
+	path = epicReactPro/advanced-react-patterns
+	url = git://github.com/kentcdodds/advanced-react-patterns
+
+
+[submodule "epicReactPro/bookshelf"]
+	path = epicReactPro/bookshelf
+	url = git://github.com/kentcdodds/bookshelf
+
+
+[submodule "epicReactPro/react-fundamentals"]
+	path = epicReactPro/react-fundamentals
+	url = git://github.com/kentcdodds/react-fundamentals
+
+
+[submodule "epicReactPro/react-hooks"]
+	path = epicReactPro/react-hooks
+	url = git://github.com/kentcdodds/react-hooks
+
+
+[submodule "epicReactPro/react-performance"]
+	path = epicReactPro/react-performance
+	url = git://github.com/kentcdodds/react-performance 
+
+
+[submodule "epicReactPro/react-suspense"]
+	path = epicReactPro/react-suspense
+	url = git://github.com/kentcdodds/react-suspense
+
+
+[submodule "epicReactPro/testing-react-apps"]
+	path = epicReactPro/testing-react-apps
+	url = git://github.com/kentcdodds/testing-react-apps
