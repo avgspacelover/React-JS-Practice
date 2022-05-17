@@ -1,0 +1,3 @@
+[submodule "epicReactPro/advanced-react-hooks"]
+	path = epicReactPro/advanced-react-hooks
+	url = git://github.com/kentcdodds/advanced-react-hooks
