@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import App from './exercises/ex1/App';
-// import App from "./exercises/ex2/App";
+//import App from './exercises/ex1/App';
+ import App from "./exercises/ex2/App";
 // import App from "./exercises/ex3/App";
 // import App from "./exercises/ex4/App";
 // import App from "./exercises/ex5/App";

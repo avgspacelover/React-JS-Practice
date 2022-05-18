@@ -1,4 +1,4 @@
-import { Component, useState } from "react"
+import {useState } from "react"
 
 
 const ThemedComponent = () => {
@@ -16,6 +16,7 @@ const ThemedComponent = () => {
     )
 }
 
+//import { Component} from "react";
 // class ThemedComponent extends Component{
 
 //     state={
