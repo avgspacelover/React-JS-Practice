@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 //import App from './exercises/ex1/App';
- import App from "./exercises/ex2/App";
+// import App from "./exercises/ex2/App";
 // import App from "./exercises/ex3/App";
 // import App from "./exercises/ex4/App";
 // import App from "./exercises/ex5/App";
@@ -11,7 +11,7 @@ import './index.css';
 // import App from "./exercises/ex7/App";
 // import App from "./exercises/ex8/App";
 // import App from "./exercises/ex9/App";
-// import App from "./exercises/ex10/App";
+ import App from "./exercises/ex10/App";
 // import App from "./exercises/ex11/App";
 // import App from "./exercises/ex12/App";
 // import App from "./exercises/ex12/App_useReducer";
