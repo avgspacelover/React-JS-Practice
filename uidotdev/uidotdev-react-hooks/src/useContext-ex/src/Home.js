@@ -13,16 +13,19 @@ const text = {
 };
 
 export default function Home() {
+
+  const {locale} = React.useContext(LocaleContext);
+
   return (
     <div className="home">
-      <LocaleContext.Consumer>
-        {({ locale }) => (
+
+
           <React.Fragment>
             <h1>{text[locale].header}</h1>
             <p>{text[locale].paragraph}</p>
           </React.Fragment>
-        )}
-      </LocaleContext.Consumer>
+
+
     </div>
   );
 }

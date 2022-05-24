@@ -33,12 +33,14 @@ function Posts({ locale }) {
 }
 
 export default function Blog() {
+
+  const {locale} = React.useContext(LocaleContext);
   return (
     <div>
       <h1>Blog</h1>
-      <LocaleContext.Consumer>
-        {({ locale }) => <Posts locale={locale} />}
-      </LocaleContext.Consumer>
+
+      <Posts locale={locale} />
+
     </div>
   );
 }

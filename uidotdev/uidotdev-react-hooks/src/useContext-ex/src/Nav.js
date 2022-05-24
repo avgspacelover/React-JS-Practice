@@ -41,15 +41,19 @@ function SpanishNav({ toggleLocale }) {
 }
 
 export default function Nav() {
+
+  const {locale, toggleLocale} = React.useContext(LocaleContext);
+
+  
   return (
-    <LocaleContext.Consumer>
-      {({ locale, toggleLocale }) =>
+
+
         locale === "en" ? (
           <EnglishNav toggleLocale={toggleLocale} />
         ) : (
           <SpanishNav toggleLocale={toggleLocale} />
         )
-      }
-    </LocaleContext.Consumer>
+
+
   );
 }
