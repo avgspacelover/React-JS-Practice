@@ -36,3 +36,8 @@
 [submodule "epicReactPro/testing-react-apps"]
 	path = epicReactPro/testing-react-apps
 	url = git://github.com/kentcdodds/testing-react-apps
+
+
+[submodule "uidotdev/uidotdev-hooks-project/react-hooks-course"]
+	path = uidotdev/uidotdev-hooks-project/react-hooks-course
+	url = git://github.com/antariksh17/react-hooks-course/
