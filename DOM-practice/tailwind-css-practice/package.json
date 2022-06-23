@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-css-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "build": "npx tailwindcss -i ./input.css -o ./css/output.css ",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
