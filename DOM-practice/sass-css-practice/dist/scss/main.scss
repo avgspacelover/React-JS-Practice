@@ -1,0 +1,20 @@
+$primary-color: #272727;
+$secondary-color: #fff;
+$font-weight: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700,
+);
+
+body {
+    background-color: $primary-color;
+    color: $secondary-color;
+    // font-weight: map-get($font-weight, bold)
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: map-get($font-weight, bold)
+
+}
